@@ -3,22 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>台中市景點推薦</title>
 	<style >
 		td {text-align: center; }
-		.font { font-size: 80px}
+		.font:hover { font-size: 80px; background-color: black; color:  white;}
+		.container { margin:0 auto; width: 1024px; }
+		.img { border-radius: 50%; width: 300px; height: 300px; }
+		td { padding: 20px; }
+		img:hover { opacity: 80%; rotate: 5deg; }
+				.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  position: fixed; /* Set the navbar to fixed position */
+		  top: 0; /* Position the navbar at the top of the page */
+		  width: 100%; /* Full width */
+		}
+
+		/* Links inside the navbar */
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		/* Change background on mouse-over */
+		.navbar a:hover {
+		  background: #ddd;
+		  color: black;
+		}
+
 
 	</style>
 </head>
 <body>
+<div class="navbar">
+  <a href="#t1">臺中市</a>
+  <a href="#t2">台中國家歌劇院</a>
+  <a href="#t3">臺中州廳</a>
+  <a href="#t4">審計新村</a>
+</div>
+
+
+
+
 <div>	
 	<table >
 		<tr>
+			<br><br>
 			<td colspan="2"><font class="font">台中市景點推薦</font><br><img src="00taichung.jpeg" width="1024px" height="300px"></td>
 		</tr>
 		<tr>
 			<td colspan="2">
-				臺中市<br>
+				<font id="t1" class="font">臺中市</font><br>
 	              
 	            臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。
               
@@ -26,7 +65,7 @@
 		</tr>
 		<tr>
 			<td>
-				<img src="01.jpeg" width="1024px" height="300px"></td>
+				<img  id="t2" class="img" src="01.jpeg" width="1024px" height="300px"></td>
             </td>
 			<td>
 				<font class="font">台中國家歌劇院</font><br>
@@ -49,12 +88,12 @@
                 所在位置：台中市西區民權路99號
             </td>
 			<td>
-				<img src="02.jpeg" width="1024px" height="300px"></td>
+				<img id="t3" class="img" src="02.jpeg" width="1024px" height="300px"></td>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<img src="02.jpeg" width="1024px" height="300px"></td>
+				<img id="t4" class="img" src="02.jpeg" width="1024px" height="300px"></td>
 			</td>
 			<td><font class="font">審計新村</font><br>
 
@@ -67,7 +106,13 @@
 		</tr>
 		<tr>
 			<td colspan="2">
-				410906799楊明翰
+				<iframe src="https://www.google.com/maps/d/embed?mid=1m_2ShYGPvYLyFXp41ztNh9H0muOpZKg&ehbc=2E312F" width="640" height="480"></iframe>
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="background-color: black; color:  white">
+				資科4B 410906799楊明翰
 			</td>
 		</tr>
 	</table>
